@@ -38,7 +38,14 @@ class PokemonAdapter(
             item?.let {
                 Glide.with(itemView.context).load(it.imageUrl).into(ivPokemon)
 
-                tvNumber.text = "Nº ${item.formattedName}"
+                if (item.number < 10) {
+                    tvNumber.text = "Nº 00${item.number}"
+                } else if (item.number >= 10 && item.number < 100) {
+                    tvNumber.text = "Nº 0${item.number}"
+                } else {
+                    tvNumber.text = "Nº ${item.number}"
+                }
+
                 tvName.text = item.formattedName
                 tvType1.text = item.types?.get(0)?.name
 

@@ -1,4 +1,4 @@
-package com.example.apppokedex
+package com.example.apppokedex.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.apppokedex.R
 import com.example.apppokedex.domain.Pokemon
 import com.example.apppokedex.ui.viewModel.PokemonAdapter
 import com.example.apppokedex.ui.viewModel.PokemonViewModel
