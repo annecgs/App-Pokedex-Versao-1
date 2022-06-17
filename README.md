@@ -14,3 +14,5 @@
 <li>Glide (Aplicado nas atividades de carregamento de imagens)</li>
 <li>Lifecycle (Aplicado nas atividades da viewModel)</li>
 
+<h2>Demonstrativo da tela Splash</h2>
+<img src="https://user-images.githubusercontent.com/103140224/174307954-5fc1c380-7467-409c-85c4-8ef788b092e5.png" width="250px" heigth="250px"/>
