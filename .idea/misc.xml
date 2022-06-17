@@ -3,14 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/activity_main.xml" value="0.13677536231884058" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/activity_poke_info.xml" value="0.1796875" />
-        <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/activity_poke_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/activity_poke_list.xml" value="0.25" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/card_pokemon_search.xml" value="0.22" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/content_splash.xml" value="0.1796875" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/fragment_first.xml" value="0.1796875" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/fragment_item_list.xml" value="0.165625" />
         <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/fragment_second.xml" value="0.1796875" />
+        <entry key="..\:/Users/agomesou/AndroidStudioProjects/AppPokedex/app/src/main/res/layout/pokemon_item.xml" value="0.13004484304932734" />
       </map>
     </option>
   </component>

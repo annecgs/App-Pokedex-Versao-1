@@ -1,4 +1,4 @@
-package com.example.apppokedex
+package com.example.apppokedex.service
 
 import com.example.apppokedex.model.PokemonApiResult
 import com.example.apppokedex.model.PokemonsApiResult

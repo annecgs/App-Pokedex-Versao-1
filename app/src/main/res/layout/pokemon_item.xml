@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rvPokemons"
+    android:layout_width="410dp"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="#363636"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:background="#363636">
+
+
+        <ImageView
+            android:id="@+id/pokemonImage"
+            android:layout_width="163dp"
+            android:layout_height="154dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Pokemon Image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/numberPokemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="12dp"
+            android:text="Nº 001"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintStart_toEndOf="@+id/pokemonImage"
+            app:layout_constraintTop_toBottomOf="@+id/namePokemom"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/namePokemom"
+            android:layout_width="157dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="51dp"
+            android:text="Charmander"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:layout_constraintStart_toEndOf="@+id/pokemonImage"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@id/namePokemom">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvtype2"
+            android:layout_width="46dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:background="#8B008B"
+            android:gravity="center_horizontal"
+            android:text="Charmander"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tvtype1"
+            app:layout_constraintTop_toBottomOf="@+id/numberPokemon"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvtype1"
+            android:layout_width="46dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="20dp"
+            android:background="#00008B"
+            android:gravity="center_horizontal"
+            android:text="Charmander"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/pokemonImage"
+            app:layout_constraintTop_toBottomOf="@+id/numberPokemon"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
